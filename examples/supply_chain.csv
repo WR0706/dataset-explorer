@@ -1,0 +1,7 @@
+order_id,sku,supplier,expected_arrival,actual_arrival,quantity,unit_price,status
+ORD001,SKU-A,Supplier X,2023-10-01,2023-10-02,100,15.5,Delivered
+ORD002,SKU-B,Supplier Y,2023-10-05,,50,20.0,In Transit
+ORD002,SKU-B,Supplier Y,2023-10-05,,50,20.0,In Transit
+ORD003,SKU-A,Supplier X,2023-10-10,2023-10-15,-5,15.5,Delivered
+ORD004,SKU-C,Supplier Z,2023-10-12,2023-10-12,,10.0,Delayed
+ORD005,SKU-B,Supplier Y,2023-11-01,2023-11-03,200,20.0,Delivered

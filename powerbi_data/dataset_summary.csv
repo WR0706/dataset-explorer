@@ -1,0 +1,12 @@
+﻿Column_Name,unique,mode,top_values,缺失率,count,min,max,mean,std,median
+order_id,5.0,ORD001,"ORD001(1), ORD002(1), ORD003(1), ORD004(1), ORD005(1)",0.0%,,,,,,
+sku,3.0,SKU-A,"SKU-A(2), SKU-B(2), SKU-C(1)",0.0%,,,,,,
+supplier,3.0,SUPPLIER X,"SUPPLIER X(2), SUPPLIER Y(2), SUPPLIER Z(1)",0.0%,,,,,,
+expected_arrival,,,,0.0%,5.0,2023-10-01 00:00:00,2023-11-01 00:00:00,,,
+actual_arrival,,,,20.0%,4.0,2023-10-02 00:00:00,2023-11-03 00:00:00,,,
+quantity,,,,0.0%,5.0,0.0,200.0,70.0,83.67,50.0
+unit_price,,,,0.0%,5.0,10.0,20.0,16.2,4.13,15.5
+status,3.0,DELIVERED,"DELIVERED(3), IN TRANSIT(1), DELAYED(1)",0.0%,,,,,,
+delay_days,,,,20.0%,4.0,0.0,5.0,2.0,2.16,1.5
+is_delayed,2.0,YES,"YES(3), NO(2)",0.0%,,,,,,
+total_value,,,,0.0%,5.0,0.0,4000.0,1310.0,1644.84,1000.0
